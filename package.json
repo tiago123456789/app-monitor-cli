@@ -1,0 +1,22 @@
+{
+  "name": "poc-monitor-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "diskusage": "^1.1.3",
+    "node-os-utils": "^1.3.5",
+    "os-utils": "0.0.14",
+    "systeminformation": "^5.9.17"
+  },
+  "bin": {
+    "collect-metrics": "./bin/index.js"
+  }
+}
